@@ -4,21 +4,21 @@ layout: home
 
 hero:
   name: "VolleyTrack Docs"
-  text: "VolleyTrack User Manual"
-  tagline: Welcome to VolleyTrack, your ultimate tool for monitoring and managing volleyball statistics. This manual will guide you through the main features of the application.
+  text: "Manual de uso de VolleyTrack"
+  tagline: Bienvenido a VolleyTrack, tu herramienta definitiva para el monitoreo y gestión de estadísticas de voleibol. Este manual te guiará a través de las principales funcionalidades de la aplicación.
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Ejemplos de Markdown
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: Ejemplos de API
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: Función A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Función B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Función C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
