@@ -55,7 +55,7 @@ A partir daqui, você encontrará as instruções de passo a passo para ajudá-l
 2. Clique em **Login**.
 3. Caso tenha esquecido a senha, toque em **Esqueci minha senha** e siga as instruções.
 
-# Utilizando as Funções do VolleyTrack  
+# Utilizando as Funções do VolleyTrack
 
 ## Home  
 Na tela inicial, você pode acessar rapidamente três funções principais:  
