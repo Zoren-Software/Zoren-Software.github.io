@@ -11,9 +11,9 @@ export default defineConfig({
         ],
         sidebar: [
             {
-                text: 'Examples',
+                text: 'Guia de Utilização',
                 items: [
-                    { text: 'Markdown Examples', link: '/markdown-examples' },
+                    { text: 'Registro Inicial', link: '/registro' },
                     { text: 'Runtime API Examples', link: '/api-examples' }
                 ]
             }

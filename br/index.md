@@ -13,12 +13,13 @@ hero:
       text: VolleyTrack.com
       link: https://volleytrack.com/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub
+      link: https://github.com/Zoren-Software/VolleyTrack-Docs
 
 features:
   - title: Registro inicial
     details: Faça seu cadastro e login para começar a usar o VolleyTrack.
+    link: /br/registro/
 
   - title: Acessando o VolleyTrack Web
     details: Depois de completar o registro, acesse o VolleyTrack via navegador.
