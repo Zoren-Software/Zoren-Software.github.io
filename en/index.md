@@ -7,7 +7,7 @@ title: VolleyTrack Docs
 hero:
   name: "VolleyTrack Docs"
   text: "VolleyTrack User Manual"
-  tagline: Welcome to VolleyTrack, your ultimate tool for volleyball statistics monitoring and management. This manual will guide you through the main functionalities of the tool.
+  tagline: Welcome to VolleyTrack, your ultimate tool for monitoring and managing volleyball statistics. This manual will guide you through the use of the main functionalities of the tool.
   actions:
     - theme: brand
       text: VolleyTrack.com
@@ -22,8 +22,8 @@ features:
     link: /en/registration/
 
   - title: Accessing VolleyTrack Web
-    details: After completing registration, access VolleyTrack via your browser.
+    details: After completing the registration, access VolleyTrack via your browser.
 
-  - title: VolleyTrack Functions
+  - title: VolleyTrack Features
     details: Here is a usage guide for the main functionalities of VolleyTrack.
 ---

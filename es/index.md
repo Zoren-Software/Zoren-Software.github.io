@@ -2,23 +2,28 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: Documentación de VolleyTrack
+
 hero:
-  name: "VolleyTrack Docs"
+  name: "Documentación de VolleyTrack"
   text: "Manual de uso de VolleyTrack"
-  tagline: Bienvenido a VolleyTrack, tu herramienta definitiva para el monitoreo y gestión de estadísticas de voleibol. Este manual te guiará a través de las principales funcionalidades de la aplicación.
+  tagline: Bienvenido a VolleyTrack, su herramienta definitiva para el monitoreo y gestión de estadísticas de voleibol. Este manual le guiará en el uso de las principales funcionalidades de la herramienta.
   actions:
     - theme: brand
-      text: Ejemplos de Markdown
-      link: /markdown-examples
+      text: VolleyTrack.com
+      link: https://volleytrack.com/
     - theme: alt
-      text: Ejemplos de API
-      link: /api-examples
+      text: GitHub
+      link: https://github.com/Zoren-Software/VolleyTrack-Docs
 
 features:
-  - title: Función A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Función B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Función C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Registro inicial
+    details: Regístrese e inicie sesión para comenzar a usar VolleyTrack.
+    link: /es/registro/
+
+  - title: Accediendo a VolleyTrack Web
+    details: Después de completar el registro, acceda a VolleyTrack a través de su navegador.
+
+  - title: Funciones de VolleyTrack
+    details: Aquí encontrará una guía de uso de las principales funcionalidades de VolleyTrack.
 ---
