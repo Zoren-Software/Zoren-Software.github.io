@@ -5,7 +5,7 @@ export default defineConfig({
   description: "A VolleyTrack Docs site",
   themeConfig: {
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/Zoren-Software/VolleyTrack-Docs' }
     ]
   },
   locales: {
