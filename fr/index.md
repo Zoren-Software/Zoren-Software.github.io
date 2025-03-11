@@ -19,7 +19,7 @@ hero:
 features:
   - title: Inscription initiale
     details: Inscrivez-vous et connectez-vous pour commencer à utiliser VolleyTrack.
-    link: /fr/inscription/
+    link: /fr/registration/
 
   - title: Accéder à VolleyTrack Web
     details: Après avoir terminé l'inscription, accédez à VolleyTrack via votre navigateur.

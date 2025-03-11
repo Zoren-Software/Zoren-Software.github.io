@@ -15,13 +15,13 @@ export default defineConfig({
       link: '/en/',
       themeConfig: {
         nav: [
-          { text: 'Registration', link: '/en/registro' }
+          { text: 'Registration', link: '/en/registration' }
         ],
         sidebar: [
           {
             text: 'User Guide',
             items: [
-              { text: 'Initial Registration', link: '/en/registro' },
+              { text: 'Initial Registration', link: '/en/registration' },
               { text: 'Runtime API Examples', link: '/en/api-examples' }
             ]
           }
@@ -34,13 +34,13 @@ export default defineConfig({
       link: '/br/',
       themeConfig: {
         nav: [
-          { text: 'Registro', link: '/br/registro' }
+          { text: 'Registro', link: '/br/registration' }
         ],
         sidebar: [
           {
             text: 'Guia de Utilização',
             items: [
-              { text: 'Registro Inicial', link: '/br/registro' },
+              { text: 'Registro Inicial', link: '/br/registration' },
               { text: 'Exemplos de API em Tempo de Execução', link: '/br/exemplos-api' }
             ]
           }
@@ -53,13 +53,13 @@ export default defineConfig({
       link: '/es/',
       themeConfig: {
         nav: [
-          { text: 'Registro', link: '/es/registro' }
+          { text: 'Registro', link: '/es/registration' }
         ],
         sidebar: [
           {
             text: 'Guía de Usuario',
             items: [
-              { text: 'Registro Inicial', link: '/es/registro' },
+              { text: 'Registro Inicial', link: '/es/registration' },
               { text: 'Ejemplos de API en Tiempo de Ejecución', link: '/es/ejemplos-api' }
             ]
           }
@@ -72,13 +72,13 @@ export default defineConfig({
       link: '/fr/',
       themeConfig: {
         nav: [
-          { text: 'Inscription', link: '/fr/inscription' }
+          { text: 'Inscription', link: '/fr/registration' }
         ],
         sidebar: [
           {
             text: 'Guide d\'Utilisation',
             items: [
-              { text: 'Inscription Initiale', link: '/fr/inscription' },
+              { text: 'Inscription Initiale', link: '/fr/registration' },
               { text: 'Exemples d\'API en Exécution', link: '/fr/exemples-api' }
             ]
           }
@@ -91,13 +91,13 @@ export default defineConfig({
       link: '/it/',
       themeConfig: {
         nav: [
-          { text: 'Registrazione', link: '/it/registrazione' }
+          { text: 'Registrazione', link: '/it/registration' }
         ],
         sidebar: [
           {
             text: 'Guida Utente',
             items: [
-              { text: 'Registrazione Iniziale', link: '/it/registrazione' },
+              { text: 'Registrazione Iniziale', link: '/it/registration' },
               { text: 'Esempi di API Runtime', link: '/it/esempi-api' }
             ]
           }
@@ -110,13 +110,13 @@ export default defineConfig({
       link: '/pl/',
       themeConfig: {
         nav: [
-          { text: 'Rejestracja', link: '/pl/rejestracja' }
+          { text: 'Rejestracja', link: '/pl/registration' }
         ],
         sidebar: [
           {
             text: 'Przewodnik Użytkownika',
             items: [
-              { text: 'Początkowa Rejestracja', link: '/pl/rejestracja' },
+              { text: 'Początkowa Rejestracja', link: '/pl/registration' },
               { text: 'Przykłady API w Czasie Wykonania', link: '/pl/przyklady-api' }
             ]
           }
@@ -129,13 +129,13 @@ export default defineConfig({
       link: '/ru/',
       themeConfig: {
         nav: [
-          { text: 'Регистрация', link: '/ru/registratsiya' }
+          { text: 'Регистрация', link: '/ru/registration' }
         ],
         sidebar: [
           {
             text: 'Руководство Пользователя',
             items: [
-              { text: 'Первоначальная Регистрация', link: '/ru/registratsiya' },
+              { text: 'Первоначальная Регистрация', link: '/ru/registration' },
               { text: 'Примеры API во Время Выполнения', link: '/ru/primery-api' }
             ]
           }

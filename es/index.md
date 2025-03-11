@@ -19,7 +19,7 @@ hero:
 features:
   - title: Registro inicial
     details: Regístrese e inicie sesión para comenzar a usar VolleyTrack.
-    link: /es/registro/
+    link: /es/registration/
 
   - title: Accediendo a VolleyTrack Web
     details: Después de completar el registro, acceda a VolleyTrack a través de su navegador.
