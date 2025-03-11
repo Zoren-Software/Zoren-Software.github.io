@@ -4,25 +4,33 @@
 
 Para acessar a plataforma, siga os passos abaixo para criar sua conta:
 
-1. No site, localize e clique em **Registrar** no canto direito da tela.
-2. Preencha o formulário com as informações solicitadas:
-   - **Nome**: Insira seu nome completo.
-   - **E-mail**: Forneça um e-mail válido para receber seu acesso.
-   - **Nível de Experiência**: Selecione entre as opções disponíveis: Universitário, Semi Profissional, Profissional, Intermediário, Treinador, Instrutor ou Outro.
-   - **Mensagem (Opcional)**: Escreva uma breve descrição sobre sua experiência com o vôlei e o motivo pelo qual deseja utilizar a plataforma.
+1. No site, localize e clique em **Registrar** no canto superior direito da tela.
+2. Preencha o formulário com as seguintes informações:
+
+   - **Nome**: Informe seu nome completo.
+   - **E-mail**: Forneça um e-mail válido para receber notificações e acessos.
+   - **Nível de Experiência**: Escolha uma das opções disponíveis:
+     - Universitário
+     - Semi Profissional
+     - Profissional
+     - Intermediário
+     - Treinador
+     - Instrutor
+     - Outro
+   - **Mensagem (Opcional)**: Escreva um breve relato sobre sua experiência com o vôlei e o motivo pelo qual deseja utilizar a plataforma.
 
 ::: warning ATENÇÃO
-A plataforma está em fase inicial e, por isso, o acesso não é liberado automaticamente para qualquer usuário. A mensagem informada no registro será avaliada para determinar se o seu perfil faz sentido dentro da proposta do sistema.
+A plataforma está em fase inicial e o acesso não é liberado automaticamente. A mensagem informada no registro será analisada para garantir que seu perfil esteja alinhado com os objetivos do sistema.
 
-Nosso objetivo é entender quem você é e por que deseja utilizar a plataforma, identificando se você é um jogador, treinador ou instrutor. Com base nessas informações, decidiremos se sua conta será aprovada. Caso a mensagem não deixe claro o propósito do seu uso, seu acesso poderá ser negado.
+Nosso propósito é entender quem você é e como pretende utilizar a plataforma, seja como jogador, treinador ou instrutor. Com base nessas informações, sua conta será aprovada ou recusada.
 
-Nossa equipe entrará em contato para informar a aprovação ou negação do seu acesso e você receberá um e-mail com as instruções necessárias.
+Caso sua mensagem não deixe claro o propósito do seu uso, seu acesso poderá ser negado. Nossa equipe entrará em contato para informar a decisão e, se aprovado, você receberá um e-mail com as instruções de acesso.
 :::
 
-   - **Domínio Personalizado**: Escolha um nome para o seu acesso exclusivo na plataforma (exemplo: `seutime.volleytrack.com`).
+   - **Domínio Personalizado**: Escolha um nome exclusivo para o seu acesso na plataforma (exemplo: `seutime.volleytrack.com`).
 
-::: tip DICAS
-O domínio personalizado define o endereço pelo qual você acessará a plataforma. Para facilitar a identificação, recomendamos usar o nome do seu time. 
+::: tip DICA
+O domínio personalizado define o endereço pelo qual você acessará a plataforma. Para facilitar a identificação, recomendamos utilizar o nome do seu time. 
 
 Por exemplo, se escolher "seutime", seu acesso será: `seutime.volleytrack.com`.
 :::
@@ -34,6 +42,6 @@ Por exemplo, se escolher "seutime", seu acesso será: `seutime.volleytrack.com`.
 ### Realizando o Login
 
 1. Acesse seu domínio personalizado (exemplo: `seutime.volleytrack.com`).
-2. Insira seu e-mail e senha cadastrados.
+2. Insira seu **e-mail** e **senha** cadastrados.
 3. Clique em **Login**.
 4. Caso tenha esquecido sua senha, clique em **Esqueci minha senha** e siga as instruções para redefinição.
