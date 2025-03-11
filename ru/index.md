@@ -18,9 +18,11 @@ features:
   - title: Функция A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /pl/registration/
-    
+
   - title: Функция B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
   - title: Функция C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /pl/features/
 ---

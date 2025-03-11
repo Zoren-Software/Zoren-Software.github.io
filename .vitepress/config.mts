@@ -15,14 +15,14 @@ export default defineConfig({
       link: '/en/',
       themeConfig: {
         nav: [
-          { text: 'Registration', link: '/en/registration' }
+            { text: 'Registration', link: '/en/registration' },
+            { text: 'Features', link: '/en/features' }
         ],
         sidebar: [
           {
             text: 'User Guide',
             items: [
-              { text: 'Initial Registration', link: '/en/registration' },
-              { text: 'Runtime API Examples', link: '/en/api-examples' }
+                { text: 'Initial Registration', link: '/en/registration' },
             ]
           }
         ]
@@ -34,14 +34,14 @@ export default defineConfig({
       link: '/br/',
       themeConfig: {
         nav: [
-          { text: 'Registro', link: '/br/registration' }
+            { text: 'Registro', link: '/br/registration' },
+            { text: 'Funcionalidades', link: '/br/features' }
         ],
         sidebar: [
           {
             text: 'Guia de Utilização',
             items: [
-              { text: 'Registro Inicial', link: '/br/registration' },
-              { text: 'Exemplos de API em Tempo de Execução', link: '/br/exemplos-api' }
+                { text: 'Registro Inicial', link: '/br/registration' },
             ]
           }
         ]
@@ -53,14 +53,14 @@ export default defineConfig({
       link: '/es/',
       themeConfig: {
         nav: [
-          { text: 'Registro', link: '/es/registration' }
+            { text: 'Registro', link: '/es/registration' },
+            { text: 'Características', link: '/es/features' }
         ],
         sidebar: [
           {
             text: 'Guía de Usuario',
             items: [
               { text: 'Registro Inicial', link: '/es/registration' },
-              { text: 'Ejemplos de API en Tiempo de Ejecución', link: '/es/ejemplos-api' }
             ]
           }
         ]
@@ -72,14 +72,14 @@ export default defineConfig({
       link: '/fr/',
       themeConfig: {
         nav: [
-          { text: 'Inscription', link: '/fr/registration' }
+            { text: 'Inscription', link: '/fr/registration' },
+            { text: 'Fonctionnalités', link: '/fr/features' }
         ],
         sidebar: [
           {
             text: 'Guide d\'Utilisation',
             items: [
               { text: 'Inscription Initiale', link: '/fr/registration' },
-              { text: 'Exemples d\'API en Exécution', link: '/fr/exemples-api' }
             ]
           }
         ]
@@ -91,14 +91,14 @@ export default defineConfig({
       link: '/it/',
       themeConfig: {
         nav: [
-          { text: 'Registrazione', link: '/it/registration' }
+            { text: 'Registrazione', link: '/it/registration' },
+            { text: 'Funzionalità', link: '/it/features' }
         ],
         sidebar: [
           {
             text: 'Guida Utente',
             items: [
               { text: 'Registrazione Iniziale', link: '/it/registration' },
-              { text: 'Esempi di API Runtime', link: '/it/esempi-api' }
             ]
           }
         ]
@@ -110,14 +110,14 @@ export default defineConfig({
       link: '/pl/',
       themeConfig: {
         nav: [
-          { text: 'Rejestracja', link: '/pl/registration' }
+            { text: 'Rejestracja', link: '/pl/registration' },
+            { text: 'Funkcje', link: '/pl/features' }
         ],
         sidebar: [
           {
             text: 'Przewodnik Użytkownika',
             items: [
               { text: 'Początkowa Rejestracja', link: '/pl/registration' },
-              { text: 'Przykłady API w Czasie Wykonania', link: '/pl/przyklady-api' }
             ]
           }
         ]
@@ -129,14 +129,14 @@ export default defineConfig({
       link: '/ru/',
       themeConfig: {
         nav: [
-          { text: 'Регистрация', link: '/ru/registration' }
+            { text: 'Регистрация', link: '/ru/registration' },
+            { text: 'Функции', link: '/ru/features' }
         ],
         sidebar: [
           {
             text: 'Руководство Пользователя',
             items: [
               { text: 'Первоначальная Регистрация', link: '/ru/registration' },
-              { text: 'Примеры API во Время Выполнения', link: '/ru/primery-api' }
             ]
           }
         ]
