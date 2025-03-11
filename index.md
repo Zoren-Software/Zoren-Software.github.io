@@ -26,5 +26,6 @@ features:
 
   - title: Funções do VolleyTrack
     details: Aqui temos um guia de uso das principais funcionalidades do VolleyTrack.
+    link: /br/features/
 ---
 
