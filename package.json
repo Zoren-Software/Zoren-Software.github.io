@@ -6,5 +6,6 @@
     "docs:dev": "vitepress dev --port 3000",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
-  }
+  },
+  "version": "0.1.0"
 }
