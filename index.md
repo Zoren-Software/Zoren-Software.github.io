@@ -35,4 +35,4 @@ features:
 
 ## Vídeo Demonstrativo
 
-<YouTubeVideo videoId="sxGKCYNPlgw" />
+<YouTubeVideo videoKey="demoVideoId" />

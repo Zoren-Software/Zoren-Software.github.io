@@ -12,20 +12,17 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { computed } from "vue";
+import { videoIds } from "../video-ids";
 
-const props = defineProps({
-  videoId: {
-    type: String,
-    required: true,
-  },
-});
+const props = defineProps<{
+  videoKey: keyof typeof videoIds;
+}>();
 
 const videoUrl = computed(() => {
-  const link = `https://www.youtube.com/embed/${props.videoId}`;
-  console.log(link);
-  return link;
+  const videoId = videoIds[props.videoKey];
+  return `https://www.youtube.com/embed/${videoId}`;
 });
 </script>
 
