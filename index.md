@@ -29,3 +29,10 @@ features:
     link: /br/features/
 ---
 
+<script setup>
+  import YouTubeVideo from './.vitepress/components/YouTubeVideo.vue';
+</script>
+
+## Vídeo Demonstrativo
+
+<YouTubeVideo videoId="sxGKCYNPlgw" />
