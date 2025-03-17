@@ -15,14 +15,17 @@ hero:
       link: /api-examples
 
 features:
-  - title: Функция A
+  - icon: 📝
+    title: Функция A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /pl/registration/
 
-  - title: Функция B
+  - icon: 🌐
+    title: Функция B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-  - title: Функция C
+  - icon: ⚒️
+    title: Функция C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /pl/features/
 ---

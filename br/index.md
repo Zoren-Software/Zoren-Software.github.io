@@ -17,14 +17,17 @@ hero:
       link: https://github.com/Zoren-Software/VolleyTrack-Docs
 
 features:
-  - title: Registro inicial
+  - icon: 📝
+    title: Registro inicial
     details: Faça seu cadastro e login para começar a usar o VolleyTrack.
     link: /br/registration/
 
-  - title: Acessando o VolleyTrack Web
+  - icon: 🌐
+    title: Acessando o VolleyTrack Web
     details: Depois de completar o registro, acesse o VolleyTrack via navegador.
 
-  - title: Funções do VolleyTrack
+  - icon: ⚒️
+    title: Funções do VolleyTrack
     details: Aqui temos um guia de uso das principais funcionalidades do VolleyTrack.
     link: /br/features/
 ---
