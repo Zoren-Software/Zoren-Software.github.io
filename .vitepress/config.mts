@@ -6,10 +6,30 @@ export default defineConfig({
   themeConfig: {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Zoren-Software/VolleyTrack-Docs' }
-    ]
+    ],
+    logo: './images/logo_volleytrack.svg',
   },
   locales: {
     root: {
+        label: 'Português (Brasil)',
+        lang: 'pt-BR',
+        link: '/br/',
+        themeConfig: {
+          nav: [
+              { text: 'Registro', link: '/br/registration' },
+              { text: 'Funcionalidades', link: '/br/features' }
+          ],
+          sidebar: [
+            {
+              text: 'Guia de Utilização',
+              items: [
+                  { text: 'Registro Inicial', link: '/br/registration' },
+              ]
+            }
+          ]
+        }
+      },
+    en: {
       label: 'English',
       lang: 'en',
       link: '/en/',
