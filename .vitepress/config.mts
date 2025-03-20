@@ -16,7 +16,7 @@ export default defineConfig({
         link: '/br/',
         themeConfig: {
           nav: [
-              { text: 'Registro', link: '/br/registration' },
+              { text: 'Registro Inicial', link: '/br/registration' },
               { text: 'Funcionalidades', link: '/br/features' }
           ],
           sidebar: [
@@ -36,7 +36,7 @@ export default defineConfig({
       link: '/en/',
       themeConfig: {
         nav: [
-            { text: 'Registration', link: '/en/registration' },
+            { text: 'Inicial Registration', link: '/en/registration' },
             { text: 'Features', link: '/en/features' }
         ],
         sidebar: [
@@ -56,7 +56,7 @@ export default defineConfig({
       link: '/br/',
       themeConfig: {
         nav: [
-            { text: 'Registro', link: '/br/registration' },
+            { text: 'Registro Inicial', link: '/br/registration' },
             { text: 'Funcionalidades', link: '/br/features' }
         ],
         sidebar: [
@@ -76,7 +76,7 @@ export default defineConfig({
       link: '/es/',
       themeConfig: {
         nav: [
-            { text: 'Registro', link: '/es/registration' },
+            { text: 'Registro Inicial', link: '/es/registration' },
             { text: 'Características', link: '/es/features' }
         ],
         sidebar: [
@@ -96,7 +96,7 @@ export default defineConfig({
       link: '/fr/',
       themeConfig: {
         nav: [
-            { text: 'Inscription', link: '/fr/registration' },
+            { text: 'Inscription Initiale', link: '/fr/registration' },
             { text: 'Fonctionnalités', link: '/fr/features' }
         ],
         sidebar: [
@@ -116,7 +116,7 @@ export default defineConfig({
       link: '/it/',
       themeConfig: {
         nav: [
-            { text: 'Registrazione', link: '/it/registration' },
+            { text: 'Registrazione Iniziale', link: '/it/registration' },
             { text: 'Funzionalità', link: '/it/features' }
         ],
         sidebar: [
@@ -136,7 +136,7 @@ export default defineConfig({
       link: '/pl/',
       themeConfig: {
         nav: [
-            { text: 'Rejestracja', link: '/pl/registration' },
+            { text: 'Początkowa Rejestracja', link: '/pl/registration' },
             { text: 'Funkcje', link: '/pl/features' }
         ],
         sidebar: [
@@ -156,7 +156,7 @@ export default defineConfig({
       link: '/ru/',
       themeConfig: {
         nav: [
-            { text: 'Регистрация', link: '/ru/registration' },
+            { text: 'Первоначальная Регистрация', link: '/ru/registration' },
             { text: 'Функции', link: '/ru/features' }
         ],
         sidebar: [
