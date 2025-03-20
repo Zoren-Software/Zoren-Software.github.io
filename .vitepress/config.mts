@@ -24,6 +24,7 @@ export default defineConfig({
               text: 'Guia de Utilização',
               items: [
                   { text: 'Registro Inicial', link: '/br/registration' },
+                  { text: 'Funcionalidades', link: '/br/features' },
               ]
             }
           ]
@@ -43,6 +44,7 @@ export default defineConfig({
             text: 'User Guide',
             items: [
                 { text: 'Initial Registration', link: '/en/registration' },
+                { text: 'Features', link: '/en/features' },
             ]
           }
         ]
@@ -62,6 +64,7 @@ export default defineConfig({
             text: 'Guia de Utilização',
             items: [
                 { text: 'Registro Inicial', link: '/br/registration' },
+                { text: 'Funcionalidades', link: '/br/features' },
             ]
           }
         ]
@@ -81,6 +84,7 @@ export default defineConfig({
             text: 'Guía de Usuario',
             items: [
               { text: 'Registro Inicial', link: '/es/registration' },
+              { text: 'Características', link: '/es/features' },
             ]
           }
         ]
@@ -100,6 +104,7 @@ export default defineConfig({
             text: 'Guide d\'Utilisation',
             items: [
               { text: 'Inscription Initiale', link: '/fr/registration' },
+              { text: 'Fonctionnalités', link: '/fr/features' },  
             ]
           }
         ]
@@ -119,6 +124,7 @@ export default defineConfig({
             text: 'Guida Utente',
             items: [
               { text: 'Registrazione Iniziale', link: '/it/registration' },
+              { text: 'Funzionalità', link: '/it/features' },
             ]
           }
         ]
@@ -138,6 +144,7 @@ export default defineConfig({
             text: 'Przewodnik Użytkownika',
             items: [
               { text: 'Początkowa Rejestracja', link: '/pl/registration' },
+              { text: 'Funkcje', link: '/pl/features' },
             ]
           }
         ]
@@ -157,6 +164,7 @@ export default defineConfig({
             text: 'Руководство Пользователя',
             items: [
               { text: 'Первоначальная Регистрация', link: '/ru/registration' },
+              { text: 'Функции', link: '/ru/features' },
             ]
           }
         ]
