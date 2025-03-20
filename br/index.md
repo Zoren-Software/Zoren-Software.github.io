@@ -28,6 +28,7 @@ features:
   - icon: 🌐
     title: Acessando o VolleyTrack Web
     details: Depois de completar o registro, acesse o VolleyTrack via navegador.
+    link: /br/web/
 
   - icon: ⚒️
     title: Funções do VolleyTrack
