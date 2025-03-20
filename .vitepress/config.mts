@@ -36,7 +36,7 @@ export default defineConfig({
       link: '/en/',
       themeConfig: {
         nav: [
-            { text: 'Inicial Registration', link: '/en/registration' },
+            { text: 'Initial Registration', link: '/en/registration' },
             { text: 'Features', link: '/en/features' }
         ],
         sidebar: [
