@@ -8,6 +8,9 @@ hero:
   name: "Documentazione di VolleyTrack"
   text: "Manuale utente di VolleyTrack"
   tagline: Benvenuto su VolleyTrack, il tuo strumento definitivo per il monitoraggio e la gestione delle statistiche di pallavolo. Questo manuale ti guiderà nell'utilizzo delle principali funzionalità dello strumento.
+  image:
+    src: /images/logo_volleytrack.png
+    alt: VolleyTrack
   actions:
     - theme: brand
       text: VolleyTrack.com

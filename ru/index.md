@@ -6,6 +6,9 @@ hero:
   name: "VolleyTrack Docs"
   text: "Руководство пользователя VolleyTrack"
   tagline: Добро пожаловать в VolleyTrack – ваш лучший инструмент для мониторинга и управления статистикой волейбола. Это руководство поможет вам освоить основные функции приложения.
+  image:
+    src: /images/logo_volleytrack.png
+    alt: VolleyTrack
   actions:
     - theme: brand
       text: Примеры Markdown
