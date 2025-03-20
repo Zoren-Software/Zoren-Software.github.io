@@ -90,21 +90,39 @@
  * Component: Home
  * -------------------------------------------------------------------------- */
 
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #FF4E18 40%,
-    #696969
-  );
-
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #FF4E18 50%,
-    #696969 50%
-  );
-  --vp-home-hero-image-filter: blur(44px);
-}
+ :root {
+    /* Cores para o modo claro */
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(
+      120deg,
+      #fe4912 40%,
+      #696969
+    );
+  
+    --vp-home-hero-image-background-image: linear-gradient(
+      -45deg,
+      #3f3431 50%,
+      #dadada 50%
+    );
+    --vp-home-hero-image-filter: blur(44px);
+  }
+  
+  .dark {
+    /* Cores para o modo escuro */
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(
+      120deg,
+      #FF4E18 40%,
+      #696969
+    );
+  
+    --vp-home-hero-image-background-image: linear-gradient(
+      -45deg,
+      #FF4E18 50%,
+      #696969 50%
+    );
+    --vp-home-hero-image-filter: blur(44px);
+  }
 
 @media (min-width: 640px) {
   :root {
