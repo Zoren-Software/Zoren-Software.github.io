@@ -6,16 +6,37 @@ export default defineConfig({
   themeConfig: {
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Zoren-Software/VolleyTrack-Docs' }
-    ]
+    ],
+    logo: './images/logo_volleytrack.svg',
   },
   locales: {
     root: {
+        label: 'Português (Brasil)',
+        lang: 'pt-BR',
+        link: '/br/',
+        themeConfig: {
+          nav: [
+              { text: 'Registro Inicial', link: '/br/registration' },
+              { text: 'Funcionalidades', link: '/br/features' }
+          ],
+          sidebar: [
+            {
+              text: 'Guia de Utilização',
+              items: [
+                  { text: 'Registro Inicial', link: '/br/registration' },
+                  { text: 'Funcionalidades', link: '/br/features' },
+              ]
+            }
+          ]
+        }
+      },
+    en: {
       label: 'English',
       lang: 'en',
       link: '/en/',
       themeConfig: {
         nav: [
-            { text: 'Registration', link: '/en/registration' },
+            { text: 'Initial Registration', link: '/en/registration' },
             { text: 'Features', link: '/en/features' }
         ],
         sidebar: [
@@ -23,6 +44,7 @@ export default defineConfig({
             text: 'User Guide',
             items: [
                 { text: 'Initial Registration', link: '/en/registration' },
+                { text: 'Features', link: '/en/features' },
             ]
           }
         ]
@@ -34,7 +56,7 @@ export default defineConfig({
       link: '/br/',
       themeConfig: {
         nav: [
-            { text: 'Registro', link: '/br/registration' },
+            { text: 'Registro Inicial', link: '/br/registration' },
             { text: 'Funcionalidades', link: '/br/features' }
         ],
         sidebar: [
@@ -42,6 +64,7 @@ export default defineConfig({
             text: 'Guia de Utilização',
             items: [
                 { text: 'Registro Inicial', link: '/br/registration' },
+                { text: 'Funcionalidades', link: '/br/features' },
             ]
           }
         ]
@@ -53,7 +76,7 @@ export default defineConfig({
       link: '/es/',
       themeConfig: {
         nav: [
-            { text: 'Registro', link: '/es/registration' },
+            { text: 'Registro Inicial', link: '/es/registration' },
             { text: 'Características', link: '/es/features' }
         ],
         sidebar: [
@@ -61,6 +84,7 @@ export default defineConfig({
             text: 'Guía de Usuario',
             items: [
               { text: 'Registro Inicial', link: '/es/registration' },
+              { text: 'Características', link: '/es/features' },
             ]
           }
         ]
@@ -72,7 +96,7 @@ export default defineConfig({
       link: '/fr/',
       themeConfig: {
         nav: [
-            { text: 'Inscription', link: '/fr/registration' },
+            { text: 'Inscription Initiale', link: '/fr/registration' },
             { text: 'Fonctionnalités', link: '/fr/features' }
         ],
         sidebar: [
@@ -80,6 +104,7 @@ export default defineConfig({
             text: 'Guide d\'Utilisation',
             items: [
               { text: 'Inscription Initiale', link: '/fr/registration' },
+              { text: 'Fonctionnalités', link: '/fr/features' },  
             ]
           }
         ]
@@ -91,7 +116,7 @@ export default defineConfig({
       link: '/it/',
       themeConfig: {
         nav: [
-            { text: 'Registrazione', link: '/it/registration' },
+            { text: 'Registrazione Iniziale', link: '/it/registration' },
             { text: 'Funzionalità', link: '/it/features' }
         ],
         sidebar: [
@@ -99,6 +124,7 @@ export default defineConfig({
             text: 'Guida Utente',
             items: [
               { text: 'Registrazione Iniziale', link: '/it/registration' },
+              { text: 'Funzionalità', link: '/it/features' },
             ]
           }
         ]
@@ -110,7 +136,7 @@ export default defineConfig({
       link: '/pl/',
       themeConfig: {
         nav: [
-            { text: 'Rejestracja', link: '/pl/registration' },
+            { text: 'Początkowa Rejestracja', link: '/pl/registration' },
             { text: 'Funkcje', link: '/pl/features' }
         ],
         sidebar: [
@@ -118,6 +144,7 @@ export default defineConfig({
             text: 'Przewodnik Użytkownika',
             items: [
               { text: 'Początkowa Rejestracja', link: '/pl/registration' },
+              { text: 'Funkcje', link: '/pl/features' },
             ]
           }
         ]
@@ -129,7 +156,7 @@ export default defineConfig({
       link: '/ru/',
       themeConfig: {
         nav: [
-            { text: 'Регистрация', link: '/ru/registration' },
+            { text: 'Первоначальная Регистрация', link: '/ru/registration' },
             { text: 'Функции', link: '/ru/features' }
         ],
         sidebar: [
@@ -137,6 +164,7 @@ export default defineConfig({
             text: 'Руководство Пользователя',
             items: [
               { text: 'Первоначальная Регистрация', link: '/ru/registration' },
+              { text: 'Функции', link: '/ru/features' },
             ]
           }
         ]
