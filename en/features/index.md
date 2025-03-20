@@ -2,6 +2,8 @@
 
 ## Home
 
+![Home Screen](./images/home.png)
+
 On the home screen, you have quick access to three main functionalities:
 
 - **Register Players**

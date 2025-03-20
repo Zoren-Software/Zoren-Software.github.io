@@ -8,6 +8,9 @@ hero:
   name: "VolleyTrack Docs"
   text: "Manual de uso de VolleyTrack"
   tagline: Bem-vindo ao VolleyTrack, sua ferramenta definitiva para monitoramento e gestão de estatísticas de voleibol. Este manual irá guiá-lo pelo uso das principais funcionalidades da ferramenta.
+  image:
+    src: /images/logo_volleytrack.png
+    alt: VolleyTrack
   actions:
     - theme: brand
       text: VolleyTrack.com
@@ -17,15 +20,26 @@ hero:
       link: https://github.com/Zoren-Software/VolleyTrack-Docs
 
 features:
-  - title: Registro inicial
+  - icon: 📝
+    title: Registro inicial
     details: Faça seu cadastro e login para começar a usar o VolleyTrack.
     link: /br/registration/
 
-  - title: Acessando o VolleyTrack Web
+  - icon: 🌐
+    title: Acessando o VolleyTrack Web
     details: Depois de completar o registro, acesse o VolleyTrack via navegador.
+    link: /br/web/
 
-  - title: Funções do VolleyTrack
+  - icon: ⚒️
+    title: Funções do VolleyTrack
     details: Aqui temos um guia de uso das principais funcionalidades do VolleyTrack.
     link: /br/features/
 ---
 
+<script setup>
+  import YouTubeVideo from '../.vitepress/components/YouTubeVideo.vue';
+</script>
+
+## Vídeo Demonstrativo
+
+<YouTubeVideo videoKey="demoVideoId" />

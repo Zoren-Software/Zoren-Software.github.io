@@ -2,6 +2,8 @@
 
 ## Página Inicial
 
+![Página Inicial](./images/home.png)
+
 Na tela inicial, você tem acesso rápido às três principais funcionalidades:
 
 - **Registrar Jogadores**
