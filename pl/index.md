@@ -9,7 +9,7 @@ hero:
   text: "Podręcznik użytkownika VolleyTrack"
   tagline: Witamy w VolleyTrack, Twoim ostatecznym narzędziu do monitorowania i zarządzania statystykami siatkówki. Ten podręcznik poprowadzi Cię przez główne funkcje narzędzia.
   image:
-    src: /pl/images/logo_volleytrack.png
+    src: /images/logo_volleytrack.png
     alt: VolleyTrack
   actions:
     - theme: brand
@@ -28,6 +28,8 @@ features:
   - icon: 🌐
     title: Dostęp do VolleyTrack Web
     details: Po zakończeniu rejestracji uzyskaj dostęp do VolleyTrack za pośrednictwem przeglądarki.
+    link: /pl/web/
+
 
   - icon: ⚒️
     title: Funkcje VolleyTrack
