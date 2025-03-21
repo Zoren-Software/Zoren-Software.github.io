@@ -9,7 +9,7 @@ hero:
   text: "VolleyTrack User Manual"
   tagline: Welcome to VolleyTrack, your ultimate tool for monitoring and managing volleyball statistics. This manual will guide you through the use of the main functionalities of the tool.
   image:
-    src: /en/images/logo_volleytrack.png
+    src: /images/logo_volleytrack.png
     alt: VolleyTrack
   actions:
     - theme: brand
@@ -28,6 +28,7 @@ features:
   - icon: 🌐
     title: Accessing VolleyTrack Web
     details: After completing the registration, access VolleyTrack via your browser.
+    link: /en/web/
 
   - icon: ⚒️
     title: VolleyTrack Features

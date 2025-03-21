@@ -7,7 +7,7 @@ hero:
   text: "Руководство пользователя VolleyTrack"
   tagline: Добро пожаловать в VolleyTrack – ваш лучший инструмент для мониторинга и управления статистикой волейбола. Это руководство поможет вам освоить основные функции приложения.
   image:
-    src: /ru/images/logo_volleytrack.png
+    src: /images/logo_volleytrack.png
     alt: VolleyTrack
   actions:
     - theme: brand
@@ -26,6 +26,7 @@ features:
   - icon: 🌐
     title: Функция B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /ru/web/
 
   - icon: ⚒️
     title: Функция C
