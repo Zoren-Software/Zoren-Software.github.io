@@ -23,7 +23,11 @@ In the body of the email, there will be a link indicating the address of your en
 
 ## 3. First Login
 
-After creating your password, you can log into the platform normally by following these steps:
+After creating your password, you can log into the platform normally by clicking the link sent in the email. The login screen looks as follows:
+
+![Login Page](/images/login.png)
+
+To access the system, follow these steps:
 
 1. Go to the link for your environment (as indicated in the email).
 2. Enter your email and newly created password.

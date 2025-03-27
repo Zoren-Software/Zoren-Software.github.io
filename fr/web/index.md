@@ -1,10 +1,10 @@
 # Accéder à VolleyTrack Web
 
-Lorsque vous créez un compte sur VolleyTrack, vous recevrez un e-mail de confirmation contenant vos informations d'accès au système. Cet e-mail est essentiel pour accéder à votre environnement et commencer à utiliser la plateforme.
+Lorsque vous créez un compte sur VolleyTrack, vous recevez un e-mail de confirmation contenant vos informations d'accès au système. Cet e-mail est essentiel pour accéder à votre environnement et commencer à utiliser la plateforme.
 
 ## 1. Réception de l'e-mail de confirmation
 
-Dès que votre compte est configuré, vous recevrez un e-mail avec pour objet **"Détails d'accès initial au système"**. L'e-mail contiendra :
+Dès que votre compte est configuré, vous recevrez un e-mail avec l'objet **"Détails d'accès initiaux au système"**. L'e-mail contiendra :
 
 - Votre nom d'utilisateur.
 - Le lien pour accéder à votre environnement sur VolleyTrack.
@@ -14,7 +14,7 @@ Dès que votre compte est configuré, vous recevrez un e-mail avec pour objet **
 
 ## 2. Accéder à votre environnement
 
-Dans le corps de l'e-mail, un lien indiquera l'adresse de votre environnement, quelque chose comme `test.volleytrack.local` (l'adresse réelle sera spécifique à votre compte). Pour y accéder :
+Dans le corps de l'e-mail, un lien indiquera l'adresse de votre environnement, quelque chose comme `test.volleytrack.local` (l'adresse réelle sera propre à votre compte). Pour y accéder :
 
 1. Cliquez sur le bouton **"Confirmer et créer un mot de passe"**.
 2. Vous serez redirigé vers la page de création de mot de passe.
@@ -23,17 +23,21 @@ Dans le corps de l'e-mail, un lien indiquera l'adresse de votre environnement, q
 
 ## 3. Première connexion
 
-Après avoir créé votre mot de passe, vous pourrez vous connecter à la plateforme en suivant ces étapes :
+Après avoir créé votre mot de passe, vous pourrez vous connecter normalement à la plateforme via le lien reçu dans l'e-mail. L'écran de connexion ressemble à ceci :
 
-1. Accédez au lien de votre environnement (comme indiqué dans l'e-mail).
-2. Saisissez votre e-mail et le mot de passe que vous venez de créer.
+![Page de connexion](/images/login.png)
+
+Pour vous connecter, suivez ces étapes :
+
+1. Accédez au lien de votre environnement (indiqué dans l'e-mail).
+2. Saisissez votre adresse e-mail et votre mot de passe.
 3. Cliquez sur **Se connecter**.
 
 ## 4. Support et assistance
 
-Si vous n'avez pas reçu l'e-mail, vérifiez votre dossier de spam ou contactez notre équipe de support pour obtenir de l'aide.
+Si vous n'avez pas reçu l'e-mail, vérifiez votre dossier spam ou contactez notre équipe d'assistance pour obtenir de l'aide.
 
-Vous êtes maintenant prêt à explorer VolleyTrack et à utiliser ses fonctionnalités !
+Vous êtes maintenant prêt à explorer VolleyTrack et à profiter de toutes ses fonctionnalités !
 
 Cordialement,  
 **L'équipe VolleyTrack**

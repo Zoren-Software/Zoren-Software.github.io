@@ -4,6 +4,8 @@
 
 To access the platform, follow the steps below to create your account:
 
+![Home Page Registration](./images/home-page.png)
+
 1. On the website, locate and click on **Register** in the upper right corner of the screen.
 2. Fill out the form with the following information:
 
