@@ -23,7 +23,11 @@ No corpo do e-mail, haverá um link indicando o endereço do seu ambiente, algo 
 
 ## 3. Primeiro login
 
-Depois de criar sua senha, você poderá acessar a plataforma normalmente seguindo estes passos:
+Depois de criar sua senha, você poderá acessar a plataforma normalmente, entrando pelo link que foi enviado no e-mail. A tela de login é a seguinte:
+
+![Página de Login](/images/login.png)
+
+Para acessar bastar seguir os passos:
 
 1. Acesse o link do seu ambiente (conforme informado no e-mail).
 2. Insira seu e-mail e a senha recém-criada.

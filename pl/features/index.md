@@ -1,6 +1,8 @@
-# Korzystanie z Funkcji VolleyTrack
+# Korzystanie z funkcji VolleyTrack
 
 ## Strona Główna
+
+![Strona Główna](./images/home.png)
 
 Na stronie głównej masz szybki dostęp do trzech głównych funkcji:
 
@@ -10,82 +12,116 @@ Na stronie głównej masz szybki dostęp do trzech głównych funkcji:
 
 ## Treningi
 
-Zarządzaj swoimi sesjami treningowymi za pomocą następujących opcji:
+![Treningi](./images/trainings.png)
 
-- **Dodaj**: Wprowadź nową sesję treningową.
-- **Usuń**: Usuń istniejące sesje treningowe.
-- **Szukaj**: Znajdź zarejestrowane sesje treningowe.
-- **Wyczyść**: Zresetuj kryteria wyszukiwania, aby rozpocząć nowe zapytanie.
-- **Zaawansowane Filtry**: Ulepsz swoje wyszukiwanie, korzystając z takich filtrów jak:
+Zarządzaj swoimi treningami za pomocą poniższych opcji:
+
+- **Dodaj**: Dodaj nowy trening.
+- **Usuń**: Usuń istniejące treningi.
+- **Szukaj**: Wyszukaj zarejestrowane treningi.
+- **Wyczyść**: Zresetuj kryteria wyszukiwania.
+- **Zaawansowane filtry**: Doprecyzuj wyszukiwanie za pomocą filtrów takich jak:
   - **Drużyny**: Filtruj według konkretnych drużyn.
   - **Użytkownik**: Zidentyfikuj, kto wprowadził zmiany.
-  - **Zawodnicy**: Wybierz treningi z udziałem konkretnych zawodników.
-  - **Data Rozpoczęcia i Zakończenia**: Określ zakres dat dla treningów.
+  - **Zawodnicy**: Wybierz treningi z udziałem określonych zawodników.
+  - **Data rozpoczęcia i zakończenia**: Określ zakres dat treningów.
+
+## Szczegóły Treningu
+
+![Szczegóły Treningu](./images/trainings-list-presence.png)
+
+Podczas przeglądania treningu zobaczysz następujące informacje:
+
+- **Data i godzina**: Czas rozpoczęcia i zakończenia treningu.
+- **Miejsce**: Lokalizacja treningu.
+- **Opis**: Treść i cele treningu.
+- **Drużyny**: Drużyny biorące udział w treningu.
+- **Zawodnicy**: Lista uczestników.
+- **Akcje**: Opcje edycji lub usunięcia treningu.
+- **Raporty**: Dostęp do szczegółowych raportów (w przygotowaniu...).
 
 ## Drużyny
 
-Zarządzaj swoimi drużynami za pomocą następujących funkcji:
+![Drużyny](./images/teams.png)
+
+Zarządzaj drużynami za pomocą następujących funkcji:
 
 - **Dodaj**: Utwórz nową drużynę.
 - **Usuń**: Usuń istniejące drużyny.
 - **Szukaj**: Znajdź zarejestrowane drużyny.
-- **Wyczyść**: Zresetuj kryteria wyszukiwania, aby rozpocząć nowe zapytanie.
-- **Zaawansowane Filtry**: Skorzystaj z dodatkowych filtrów, takich jak:
-  - **Pozycje**: Filtruj zawodników według ich pozycji.
+- **Wyczyść**: Zresetuj kryteria wyszukiwania.
+- **Zaawansowane filtry**:
+  - **Pozycje**: Filtruj zawodników według pozycji.
   - **Użytkownik**: Sprawdź, kto wprowadził zmiany.
-  - **Zawodnicy**: Znajdź drużyny zawierające konkretnych zawodników.
+  - **Zawodnicy**: Znajdź drużyny zawierające określonych zawodników.
 
 ## Zawodnicy
 
-Organizuj i monitoruj zawodników za pomocą następujących funkcji:
+![Zawodnicy](./images/players.png)
+
+Organizuj i zarządzaj zawodnikami za pomocą następujących opcji:
 
 - **Dodaj**: Zarejestruj nowego zawodnika.
 - **Usuń**: Usuń istniejących zawodników.
 - **Szukaj**: Znajdź zarejestrowanych zawodników.
-- **Wyczyść**: Zresetuj kryteria wyszukiwania, aby rozpocząć nowe zapytanie.
-- **Zaawansowane Filtry**: Ulepsz swoje wyszukiwanie, korzystając z takich filtrów jak:
-  - **Pozycje**: Filtruj zawodników według ich pozycji.
-  - **Drużyny**: Wybierz zawodników należących do konkretnych drużyn.
+- **Wyczyść**: Zresetuj kryteria wyszukiwania.
+- **Zaawansowane filtry**:
+  - **Pozycje**: Filtruj zawodników według pozycji.
+  - **Drużyny**: Wybierz zawodników należących do określonych drużyn.
 
 ### Dodawanie Nowego Zawodnika
 
-Po kliknięciu **Dodaj** zostaniesz przekierowany do formularza podzielonego na etapy. Poruszaj się między etapami, używając przycisków **Poprzedni** i **Następny**, a po zakończeniu kliknij **Zapisz**.
+Po kliknięciu **Dodaj** zostaniesz przekierowany do formularza krok po kroku. Użyj przycisków **Wstecz** i **Dalej**, a na końcu kliknij **Zapisz**.
 
 #### 1. Informacje Podstawowe
 
-1.1. **Imię i Nazwisko**: Podaj pełne imię i nazwisko zawodnika dla dokładnej identyfikacji.
+![Dodaj Zawodnika](./images/player-informations-1.png)
 
-1.2. **E-mail**: Wprowadź ważny adres e-mail, który będzie używany do logowania i odzyskiwania konta.
+1.1. **Imię i nazwisko**: Podaj pełne imię i nazwisko zawodnika.
+
+1.2. **Adres e-mail**: Wprowadź poprawny adres e-mail do logowania i odzyskiwania konta.
 
 #### 2. Informacje Osobiste
 
-2.1. **Data Urodzenia**: Wprowadź datę urodzenia w formacie **DD/MM/RRRR**.
+![Dodaj Zawodnika](./images/player-informations-2.png)
 
-2.2. **Telefon**: Wprowadź numer kontaktowy z kodem obszaru, na przykład: **(11) 91234-5678**.
+2.1. **Data urodzenia**: W formacie **DD/MM/RRRR**.
 
-2.3. **PESEL**: Podaj numer PESEL bez kropek czy myślników, tylko cyfry.
+2.2. **Telefon komórkowy**: Podaj numer telefonu z numerem kierunkowym, np. **(11) 91234-5678**.
 
-2.4. **Dowód Osobisty**: Wprowadź numer dowodu osobistego, w tym kropki i cyfrę kontrolną, jeśli dotyczy.
+2.3. **CPF**: Podaj numer CPF bez kropek i myślników.
+
+2.4. **RG**: Podaj numer RG (można użyć kropek i cyfry kontrolnej).
 
 #### 3. Uprawnienia
 
-3.1. **Poziom Dostępu**: Określ rolę użytkownika na platformie:
+![Dodaj Zawodnika](./images/player-permissions.png)
 
-- **Trener**: Dla użytkowników zarządzających drużynami i treningami.
-- **Zawodnik**: Dla sportowców monitorujących swoje wyniki.
+3.1. **Poziom dostępu**:
+
+- **Trener**: Zarządza drużynami i treningami.
+- **Zawodnik**: Śledzi własne statystyki i postępy.
 
 #### 4. Pozycja
 
-4.1. **Pozycje**: Wybierz pozycję zawodnika w drużynie:
+![Dodaj Zawodnika](./images/player-positions.png)
 
-- **Środkowy**: Odpowiedzialny za bloki i szybkie ataki przez środek siatki.
-- **Rozgrywający**: Organizuje akcje i rozdziela piłki do atakujących.
-- **Libero**: Specjalista od przyjęcia i obrony, nie uczestniczy w ataku.
-- **Atakujący**: Główny atakujący drużyny, zazwyczaj kończy akcje.
-- **Przyjmujący**: Gra na krańcach siatki, wspomagając atak i przyjęcie.
+4.1. **Pozycje**:
 
-4.2. **Przypisz**: Po wybraniu pozycji kliknij **Przypisz**, aby powiązać zawodnika z wybraną pozycją. Pamiętaj, że zawodnik może być przypisany do wielu pozycji.
+- **Środkowy**: Odpowiedzialny za bloki i szybkie ataki przez środek.
+- **Rozgrywający**: Dystrybuuje piłki i organizuje akcje.
+- **Libero**: Specjalista od obrony i przyjęcia, nie atakuje.
+- **Atakujący**: Główny zawodnik atakujący, kończący akcje.
+- **Przyjmujący**: Gra na skrzydłach, wspiera przyjęcie i atak.
 
-4.3. **Usuń**: Aby usunąć przypisaną pozycję, kliknij ikonę **kosza** w sekcji akcji odpowiadającej pozycji, którą chcesz usunąć.
+4.2. **Powiąż**: Kliknij, aby przypisać zawodnika do pozycji. Można przypisać wiele pozycji.
 
-Te funkcje umożliwiają efektywne zarządzanie drużynami i treningami w **VolleyTrack**.
+4.3. **Usuń**: Aby usunąć przypisaną pozycję, kliknij ikonę **kosza**.
+
+#### 5. Drużyny
+
+![Dodaj Zawodnika](./images/player-teams.png)
+
+5.1. **Drużyny**: Wybierz drużyny, do których należy zawodnik, i kliknij **Powiąż**, aby przypisać.
+
+Dzięki tym funkcjom możesz skutecznie zarządzać swoimi drużynami i treningami w **VolleyTrack**.

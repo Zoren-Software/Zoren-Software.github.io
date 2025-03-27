@@ -1,8 +1,10 @@
 # Utilisation des Fonctionnalités de VolleyTrack
 
-## Accueil
+## Page d’Accueil
 
-Sur l'écran d'accueil, vous avez un accès rapide à trois fonctionnalités principales :
+![Page d’Accueil](./images/home.png)
+
+Sur la page d’accueil, vous avez un accès rapide aux trois fonctionnalités principales :
 
 - **Enregistrer des Joueurs**
 - **Enregistrer des Équipes**
@@ -10,82 +12,116 @@ Sur l'écran d'accueil, vous avez un accès rapide à trois fonctionnalités pri
 
 ## Entraînements
 
-Gérez vos séances d'entraînement avec les options suivantes :
+![Entraînements](./images/trainings.png)
 
-- **Ajouter** : Insérer une nouvelle séance d'entraînement.
-- **Supprimer** : Retirer des séances existantes.
-- **Rechercher** : Trouver des séances enregistrées.
-- **Effacer** : Réinitialiser les critères de recherche pour une nouvelle requête.
-- **Filtres Avancés** : Affiner votre recherche en utilisant des filtres tels que :
+Gérez vos entraînements avec les options suivantes :
+
+- **Ajouter** : Créez un nouvel entraînement.
+- **Supprimer** : Supprimez des entraînements existants.
+- **Rechercher** : Trouvez les entraînements enregistrés.
+- **Effacer** : Réinitialisez les critères de recherche pour une nouvelle requête.
+- **Filtres Avancés** : Affinez vos recherches avec des filtres tels que :
   - **Équipes** : Filtrer par équipes spécifiques.
   - **Utilisateur** : Identifier qui a effectué des modifications.
   - **Joueurs** : Sélectionner des entraînements impliquant des joueurs spécifiques.
-  - **Date de Début et de Fin** : Définir une plage de dates pour les entraînements.
+  - **Date de début et de fin** : Définir une période précise pour les entraînements.
+
+## Informations sur l’Entraînement
+
+![Informations sur l’Entraînement](./images/trainings-list-presence.png)
+
+En visualisant un entraînement, vous aurez accès aux informations suivantes :
+
+- **Date et Heure** : Heure de début et de fin.
+- **Lieu** : Emplacement de l’entraînement.
+- **Description** : Détails sur le contenu et les objectifs.
+- **Équipes** : Équipes participantes.
+- **Joueurs** : Liste des joueurs impliqués.
+- **Actions** : Modifier ou supprimer l’entraînement.
+- **Rapports** : Accéder à des rapports détaillés (En développement...).
 
 ## Équipes
 
-Gérez vos équipes grâce aux fonctionnalités suivantes :
+![Équipes](./images/teams.png)
 
-- **Ajouter** : Créer une nouvelle équipe.
-- **Supprimer** : Retirer des équipes existantes.
-- **Rechercher** : Localiser des équipes enregistrées.
-- **Effacer** : Réinitialiser les critères de recherche pour une nouvelle requête.
-- **Filtres Avancés** : Utiliser des filtres supplémentaires, tels que :
-  - **Postes** : Filtrer les joueurs par leurs postes.
-  - **Utilisateur** : Vérifier qui a effectué des modifications.
-  - **Joueurs** : Trouver des équipes incluant des joueurs spécifiques.
+Gérez vos équipes avec les fonctionnalités suivantes :
+
+- **Ajouter** : Créez une nouvelle équipe.
+- **Supprimer** : Supprimez des équipes existantes.
+- **Rechercher** : Trouvez des équipes enregistrées.
+- **Effacer** : Réinitialisez les critères de recherche.
+- **Filtres Avancés** : Utilisez des filtres comme :
+  - **Postes** : Filtrer les joueurs par poste.
+  - **Utilisateur** : Voir qui a effectué des changements.
+  - **Joueurs** : Trouver des équipes contenant des joueurs spécifiques.
 
 ## Joueurs
 
-Organisez et suivez les joueurs avec les fonctionnalités suivantes :
+![Joueurs](./images/players.png)
 
-- **Ajouter** : Enregistrer un nouveau joueur.
-- **Supprimer** : Retirer des joueurs existants.
-- **Rechercher** : Trouver des joueurs enregistrés.
-- **Effacer** : Réinitialiser les critères de recherche pour une nouvelle requête.
-- **Filtres Avancés** : Affiner votre recherche en utilisant des filtres tels que :
-  - **Postes** : Filtrer les joueurs par leurs postes.
-  - **Équipes** : Sélectionner des joueurs appartenant à des équipes spécifiques.
+Organisez et gérez les joueurs avec les options suivantes :
+
+- **Ajouter** : Enregistrez un nouveau joueur.
+- **Supprimer** : Supprimez des joueurs existants.
+- **Rechercher** : Trouvez des joueurs enregistrés.
+- **Effacer** : Réinitialisez les critères de recherche.
+- **Filtres Avancés** : Filtrez par :
+  - **Postes** : Rôle dans l’équipe.
+  - **Équipes** : Joueurs appartenant à des équipes spécifiques.
 
 ### Ajouter un Nouveau Joueur
 
-En cliquant sur **Ajouter**, vous serez dirigé vers un formulaire en plusieurs étapes. Naviguez entre les étapes en utilisant les boutons **Précédent** et **Suivant**, et cliquez sur **Enregistrer** une fois terminé.
+En cliquant sur **Ajouter**, vous accédez à un formulaire en plusieurs étapes. Utilisez les boutons **Précédent** et **Suivant** pour naviguer. Terminez en cliquant sur **Enregistrer**.
 
 #### 1. Informations Essentielles
 
-1.1. **Nom** : Fournissez le nom complet du joueur pour une identification précise.
+![Ajouter Joueur](./images/player-informations-1.png)
 
-1.2. **E-mail** : Saisissez une adresse e-mail valide, qui sera utilisée pour la connexion et la récupération du compte.
+1.1. **Nom** : Nom complet du joueur.
+
+1.2. **E-mail** : Adresse e-mail utilisée pour la connexion et la récupération de compte.
 
 #### 2. Informations Personnelles
 
-2.1. **Date de Naissance** : Entrez la date de naissance au format **JJ/MM/AAAA**.
+![Ajouter Joueur](./images/player-informations-2.png)
 
-2.2. **Téléphone** : Saisissez le numéro de contact avec l'indicatif régional, par exemple : **(11) 91234-5678**.
+2.1. **Date de Naissance** : Format **JJ/MM/AAAA**.
 
-2.3. **Numéro de Sécurité Sociale** : Fournissez le numéro sans points ni tirets, uniquement des chiffres.
+2.2. **Téléphone** : Avec indicatif régional, par exemple : **(11) 91234-5678**.
 
-2.4. **Carte d'Identité** : Entrez le numéro de la carte d'identité, en incluant les points et le chiffre de contrôle si applicable.
+2.3. **CPF** : Numéro sans points ni tirets.
+
+2.4. **RG** : Numéro avec ou sans points, incluant le chiffre de contrôle.
 
 #### 3. Permissions
 
-3.1. **Niveau d'Accès** : Définissez le rôle de l'utilisateur sur la plateforme :
+![Ajouter Joueur](./images/player-permissions.png)
 
-- **Entraîneur** : Pour les utilisateurs qui géreront les équipes et les entraînements.
-- **Joueur** : Pour les athlètes qui suivront leurs performances.
+3.1. **Niveau d’Accès** :
+
+- **Entraîneur** : Gère les équipes et les entraînements.
+- **Joueur** : Suit ses performances.
 
 #### 4. Poste
 
-4.1. **Postes** : Sélectionnez le poste du joueur dans l'équipe :
+![Ajouter Joueur](./images/player-positions.png)
 
-- **Central** : Responsable des blocs et des attaques rapides au centre du filet.
-- **Passeur** : Organise les actions et distribue les passes aux attaquants.
-- **Libero** : Spécialiste en réception et en défense, ne participe pas à l'attaque.
-- **Opposé** : Principal attaquant de l'équipe, généralement en charge de conclure les actions.
-- **Réceptionneur-Attaquant** : Joue aux extrémités du filet, aidant à l'attaque et à la réception.
+4.1. **Postes** :
 
-4.2. **Assigner** : Après avoir sélectionné le poste, cliquez sur **Assigner** pour associer le joueur au poste choisi. N'oubliez pas qu'un joueur peut être associé à plusieurs postes.
+- **Central** : Bloqueur et attaquant au centre du filet.
+- **Passeur** : Organise le jeu.
+- **Libéro** : Défenseur, ne participe pas à l’attaque.
+- **Opposé** : Principal attaquant.
+- **Réceptionneur-Attaquant** : Appuie l’attaque et la réception.
 
-4.3. **Supprimer** : Pour retirer un poste associé, cliquez sur l'icône de **corbeille** dans la section des actions correspondant au poste que vous souhaitez supprimer.
+4.2. **Associer** : Cliquer pour attribuer le poste au joueur. Un joueur peut avoir plusieurs postes.
 
-Ces fonctionnalités vous permettent de gérer efficacement vos équipes et vos entraînements au sein de **VolleyTrack**.
+4.3. **Supprimer** : Cliquez sur l’icône **poubelle** pour retirer une position.
+
+#### 5. Équipes
+
+![Ajouter Joueur](./images/player-teams.png)
+
+5.1. **Équipes** : Sélectionner les équipes du joueur. Cliquez sur **Associer** pour l’ajouter.
+
+Ces fonctionnalités vous permettent de gérer efficacement vos équipes et entraînements dans **VolleyTrack**.
