@@ -1,6 +1,8 @@
 # Utilizzo delle Funzionalità di VolleyTrack
 
-## Home
+## Pagina Iniziale
+
+![Pagina Iniziale](./images/home.png)
 
 Nella schermata iniziale, hai accesso rapido a tre funzionalità principali:
 
@@ -10,82 +12,116 @@ Nella schermata iniziale, hai accesso rapido a tre funzionalità principali:
 
 ## Allenamenti
 
-Gestisci le tue sessioni di allenamento con le seguenti opzioni:
+![Allenamenti](./images/trainings.png)
 
-- **Aggiungi**: Inserisci una nuova sessione di allenamento.
-- **Elimina**: Rimuovi sessioni di allenamento esistenti.
-- **Cerca**: Trova sessioni di allenamento registrate.
-- **Pulisci**: Reimposta i criteri di ricerca per una nuova query.
-- **Filtri Avanzati**: Affina la tua ricerca utilizzando filtri come:
+Gestisci i tuoi allenamenti con le seguenti opzioni:
+
+- **Aggiungi**: Crea un nuovo allenamento.
+- **Elimina**: Rimuovi allenamenti esistenti.
+- **Cerca**: Trova allenamenti registrati.
+- **Pulisci**: Ripristina i criteri di ricerca per una nuova ricerca.
+- **Filtri Avanzati**: Raffina la ricerca con filtri come:
   - **Squadre**: Filtra per squadre specifiche.
   - **Utente**: Identifica chi ha effettuato modifiche.
-  - **Giocatori**: Seleziona allenamenti che coinvolgono giocatori specifici.
-  - **Data di Inizio e Fine**: Definisci un intervallo di date per gli allenamenti.
+  - **Giocatori**: Seleziona allenamenti con giocatori specifici.
+  - **Data di Inizio e Fine**: Definisci un intervallo di date.
+
+## Dettagli Allenamento
+
+![Dettagli Allenamento](./images/trainings-list-presence.png)
+
+Visualizzando un allenamento, potrai accedere ai seguenti dettagli:
+
+- **Data e Ora**: Informazioni sull’inizio e la fine.
+- **Luogo**: Dove si svolge l’allenamento.
+- **Descrizione**: Contenuti e obiettivi dell’allenamento.
+- **Squadre**: Squadre coinvolte.
+- **Giocatori**: Elenco degli atleti partecipanti.
+- **Azioni**: Modifica o elimina l’allenamento.
+- **Report**: Accedi a report dettagliati sull’allenamento (In sviluppo...).
 
 ## Squadre
 
-Gestisci le tue squadre attraverso le seguenti funzionalità:
+![Squadre](./images/teams.png)
+
+Gestisci le tue squadre con le seguenti funzionalità:
 
 - **Aggiungi**: Crea una nuova squadra.
 - **Elimina**: Rimuovi squadre esistenti.
 - **Cerca**: Trova squadre registrate.
-- **Pulisci**: Reimposta i criteri di ricerca per una nuova query.
-- **Filtri Avanzati**: Utilizza filtri aggiuntivi, come:
-  - **Posizioni**: Filtra i giocatori in base alle loro posizioni.
-  - **Utente**: Verifica chi ha effettuato modifiche.
-  - **Giocatori**: Trova squadre che includono giocatori specifici.
+- **Pulisci**: Ripristina i criteri di ricerca.
+- **Filtri Avanzati**: Filtra con opzioni come:
+  - **Ruoli**: Filtra giocatori per ruolo.
+  - **Utente**: Vedi chi ha apportato modifiche.
+  - **Giocatori**: Trova squadre con giocatori specifici.
 
 ## Giocatori
+
+![Giocatori](./images/players.png)
 
 Organizza e monitora i giocatori con le seguenti funzionalità:
 
 - **Aggiungi**: Registra un nuovo giocatore.
 - **Elimina**: Rimuovi giocatori esistenti.
 - **Cerca**: Trova giocatori registrati.
-- **Pulisci**: Reimposta i criteri di ricerca per una nuova query.
-- **Filtri Avanzati**: Affina la tua ricerca utilizzando filtri come:
-  - **Posizioni**: Filtra i giocatori in base alle loro posizioni.
-  - **Squadre**: Seleziona giocatori appartenenti a squadre specifiche.
+- **Pulisci**: Ripristina i criteri di ricerca.
+- **Filtri Avanzati**: Filtra per:
+  - **Ruoli**: In base alla posizione in campo.
+  - **Squadre**: In base all’appartenenza a squadre specifiche.
 
 ### Aggiungere un Nuovo Giocatore
 
-Cliccando su **Aggiungi**, verrai indirizzato a un modulo suddiviso in fasi. Naviga tra le fasi utilizzando i pulsanti **Precedente** e **Successivo** e, al termine, clicca su **Salva**.
+Cliccando su **Aggiungi**, accederai a un modulo suddiviso in più fasi. Naviga con i pulsanti **Precedente** e **Successivo**, quindi clicca su **Salva**.
 
 #### 1. Informazioni Essenziali
 
-1.1. **Nome**: Fornisci il nome completo del giocatore per una corretta identificazione.
+![Aggiungi Giocatore](./images/player-informations-1.png)
 
-1.2. **Email**: Inserisci un'email valida, che verrà utilizzata per l'accesso e il recupero dell'account.
+1.1. **Nome**: Inserisci il nome completo del giocatore.
+
+1.2. **Email**: Fornisci un indirizzo email valido, usato per l’accesso e il recupero dell’account.
 
 #### 2. Informazioni Personali
 
-2.1. **Data di Nascita**: Inserisci la data di nascita nel formato **GG/MM/AAAA**.
+![Aggiungi Giocatore](./images/player-informations-2.png)
 
-2.2. **Cellulare**: Inserisci il numero di contatto con prefisso, ad esempio: **(11) 91234-5678**.
+2.1. **Data di Nascita**: Formato **GG/MM/AAAA**.
 
-2.3. **Codice Fiscale**: Fornisci il codice fiscale senza punti o trattini, solo numeri.
+2.2. **Cellulare**: Inserisci il numero con prefisso, es: **(11) 91234-5678**.
 
-2.4. **Carta d'Identità**: Inserisci il numero della carta d'identità, includendo punti e il numero di controllo se applicabile.
+2.3. **Codice Fiscale (CPF)**: Solo numeri, senza punti né trattini.
+
+2.4. **Documento di Identità (RG)**: Inserisci il numero, con o senza punteggiatura.
 
 #### 3. Permessi
 
-3.1. **Livello di Accesso**: Definisci il ruolo dell'utente sulla piattaforma:
+![Aggiungi Giocatore](./images/player-permissions.png)
 
-- **Allenatore**: Per gli utenti che gestiranno squadre e allenamenti.
-- **Giocatore**: Per gli atleti che monitoreranno le proprie prestazioni.
+3.1. **Livello di Accesso**:
 
-#### 4. Posizione
+- **Allenatore**: Per chi gestisce squadre e allenamenti.
+- **Giocatore**: Per gli atleti che monitorano le proprie prestazioni.
 
-4.1. **Posizioni**: Seleziona la posizione del giocatore nella squadra:
+#### 4. Ruolo
 
-- **Centrale**: Responsabile dei blocchi e degli attacchi rapidi al centro della rete.
-- **Palleggiatore**: Organizza le azioni e distribuisce i passaggi agli attaccanti.
-- **Libero**: Specialista nella ricezione e nella difesa, non partecipa all'attacco.
-- **Opposto**: Principale attaccante della squadra, generalmente conclude le azioni.
-- **Schiacciatore**: Gioca alle estremità della rete, assistendo nell'attacco e nella ricezione.
+![Aggiungi Giocatore](./images/player-positions.png)
 
-4.2. **Assegna**: Dopo aver selezionato la posizione, clicca su **Assegna** per associare il giocatore alla posizione scelta. Ricorda che un giocatore può essere associato a più posizioni.
+4.1. **Ruoli**:
 
-4.3. **Elimina**: Per rimuovere una posizione associata, clicca sull'icona del **cestino** nella sezione delle azioni corrispondente alla posizione che desideri eliminare.
+- **Centrale**: Si occupa di muri e attacchi centrali rapidi.
+- **Palleggiatore**: Organizza il gioco e distribuisce la palla.
+- **Libero**: Specialista in difesa e ricezione, non attacca.
+- **Opposto**: Attaccante principale, spesso finalizza l’azione.
+- **Schiacciatore**: Supporta attacco e ricezione sui lati del campo.
 
-Queste funzionalità ti permettono di gestire efficacemente le tue squadre e gli allenamenti all'interno di **VolleyTrack**.
+4.2. **Collega**: Dopo aver selezionato un ruolo, clicca su **Collega** per associarlo. Un giocatore può avere più ruoli.
+
+4.3. **Elimina**: Per rimuovere un ruolo, clicca sull’icona del **cestino** nella colonna delle azioni.
+
+#### 5. Squadre
+
+![Aggiungi Giocatore](./images/player-teams.png)
+
+5.1. **Squadre**: Seleziona le squadre di appartenenza e clicca su **Collega** per associare il giocatore.
+
+Queste funzionalità ti permettono di gestire in modo efficiente squadre e allenamenti all’interno di **VolleyTrack**.

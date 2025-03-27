@@ -4,6 +4,8 @@
 
 Per accedere alla piattaforma, segui i passaggi seguenti per creare il tuo account:
 
+![Pagina Iniziale – Registrazione](./images/home-page.png)
+
 1. Sul sito web, individua e fai clic su **Registrati** nell'angolo in alto a destra dello schermo.
 2. Compila il modulo con le seguenti informazioni:
 

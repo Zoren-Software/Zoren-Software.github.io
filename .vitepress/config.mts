@@ -11,7 +11,7 @@ export default defineConfig({
   },
   locales: {
     root: {
-        label: 'Português (Brasil)',
+        label: 'Principal',
         lang: 'pt-BR',
         link: '/br/',
         themeConfig: {
