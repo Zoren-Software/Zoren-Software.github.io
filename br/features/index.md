@@ -10,120 +10,57 @@ Na tela inicial, você tem acesso rápido às três principais funcionalidades:
 - **Registrar Times**
 - **Registrar Treinos**
 
-## Treinos
+---
 
-![Treinos](./images/trainings.png)
+## 📚 Documentação
 
-Gerencie seus treinos com as seguintes opções:
+Explore as funcionalidades do VolleyTrack através das seções abaixo:
 
-- **Adicionar**: Insira um novo treino.
-- **Deletar**: Remova treinos existentes.
-- **Pesquisar**: Encontre treinos cadastrados.
-- **Limpar**: Restaure os critérios de busca para uma nova pesquisa.
-- **Filtros Avançados**: Refine sua busca utilizando filtros como:
-  - **Times**: Filtre por equipes específicas.
-  - **Usuário**: Identifique quem realizou alterações.
-  - **Jogadores**: Selecione treinos envolvendo jogadores específicos.
-  - **Data de Início e Fim**: Defina um intervalo de datas para os treinos.
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
 
-## Informações de Treino
+### 📊 [Dashboard](./dashboard.md)
 
-![Informações de Treino](./images/trainings-list-presence.png)
+Visualize métricas consolidadas, análises de presença, desempenho de times e jogadores em um único lugar.
 
+</div>
 
-Ao visualizar um treino, você terá acesso a detalhes como:
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
 
-- **Data e Hora**: Informações sobre o início e o término do treino.
-- **Local**: Localização do treino.
-- **Descrição**: Detalhes sobre o conteúdo e os objetivos do treino.
-- **Times**: Relação de equipes envolvidas no treino.
-- **Jogadores**: Lista de atletas participantes.
-- **Ações**: Opções para editar ou excluir o treino.
-- **Relatórios**: Acesse relatórios detalhados sobre o treino. (Em desenvolvimento...)
+### 🏐 [Treinos](./trainings.md)
 
-## Times
+Gerencie seus treinos, visualize métricas de presença e faça marcações de scouts detalhadas.
 
-![Times](./images/teams.png)
+</div>
 
-Gerencie suas equipes através das seguintes funcionalidades:
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
 
-- **Adicionar**: Crie um novo time.
-- **Deletar**: Exclua times existentes.
-- **Pesquisar**: Localize times cadastrados.
-- **Limpar**: Redefina os critérios de busca para uma nova pesquisa.
-- **Filtros Avançados**: Utilize filtros adicionais, como:
-  - **Posições**: Filtre jogadores por suas posições.
-  - **Usuário**: Verifique quem realizou alterações.
-  - **Jogadores**: Encontre times que incluem jogadores específicos.
+### 👥 [Times](./teams.md)
 
-## Jogadores
+Gerencie suas equipes, filtre por posições e acompanhe as alterações realizadas.
 
-![Jogadores](./images/players.png)
+</div>
 
-Organize e acompanhe os jogadores com as seguintes funcionalidades:
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
 
-- **Adicionar**: Cadastre um novo jogador.
-- **Deletar**: Remova jogadores existentes.
-- **Pesquisar**: Encontre jogadores cadastrados.
-- **Limpar**: Restaure os critérios de busca para uma nova pesquisa.
-- **Filtros Avançados**: Refine sua busca utilizando filtros como:
-  - **Posições**: Filtre jogadores por suas posições.
-  - **Times**: Selecione jogadores pertencentes a times específicos.
+### 🏃 [Jogadores](./players.md)
 
-### Adicionar um Novo Jogador
+Cadastre novos jogadores, gerencie informações pessoais e associe posições e times.
 
+</div>
 
-Ao clicar em **Adicionar**, você será direcionado para um formulário dividido em etapas. Navegue entre as etapas utilizando os botões **Anterior** e **Próximo** e, ao finalizar, clique em **Salvar**.
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
 
-#### 1. Informações Essenciais
+### ⚙️ [Configurações](./settings.md)
 
-![Adicionar Jogador](./images/player-informations-1.png)
+Gerencie suas preferências de notificação e personalize como deseja receber alertas do sistema.
 
-1.1. **Nome**: Informe o nome completo do jogador para identificação precisa.
+</div>
 
-1.2. **E-mail**: Forneça um e-mail válido, que será utilizado para login e recuperação de conta.
+---
 
-#### 2. Informações Pessoais
+## 🚀 Início Rápido
 
-![Adicionar Jogador](./images/player-informations-2.png)
-
-2.1. **Data de Nascimento**: Insira a data de nascimento no formato **DD/MM/AAAA**.
-
-2.2. **Celular**: Digite o número de contato com DDD, por exemplo: **(11) 91234-5678**.
-
-2.3. **CPF**: Informe o CPF sem pontos ou traços, apenas números.
-
-2.4. **RG**: Insira o número do RG, podendo incluir pontos e o dígito verificador.
-
-#### 3. Permissões
-
-![Adicionar Jogador](./images/player-permissions.png)
-
-3.1. **Nível de Acesso**: Defina o papel do usuário na plataforma:
-
-- **Técnico**: Para usuários que irão gerenciar times e treinos.
-- **Jogador**: Para atletas que acompanharão seu desempenho.
-
-#### 4. Posição
-
-![Adicionar Jogador](./images/player-positions.png)
-
-4.1. **Posições**: Selecione a posição do jogador na equipe:
-
-- **Central**: Responsável por bloqueios e ataques rápidos pelo meio da rede.
-- **Levantador**: Organiza as jogadas e distribui os passes para os atacantes.
-- **Líbero**: Especialista em recepção e defesa, não participa do ataque.
-- **Oposto**: Principal atacante da equipe, geralmente finaliza as jogadas.
-- **Ponteiro**: Atua nas extremidades da rede, auxiliando no ataque e na recepção.
-
-4.2. **Relacionar**: Após selecionar a posição, clique em **Relacionar** para associar o jogador à posição escolhida. Lembre-se de que um jogador pode ser associado a múltiplas posições.
-
-4.3. **Deletar**: Para remover uma posição associada, clique no ícone de **lixeira** na seção de ações correspondente à posição que deseja excluir.
-
-#### 5. Times
-
-![Adicionar Jogador](./images/player-teams.png)
-
-5.1. **Times**: Selecione os times aos quais o jogador pertence. Clique em **Relacionar** para associar o jogador ao time escolhido.
-
-Essas funcionalidades permitem que você gerencie eficientemente seus times e treinos dentro do **VolleyTrack**.
+1. **Explore o Dashboard** - [Ver guia](./dashboard.md) para entender as métricas do sistema
+2. **Comece cadastrando seus jogadores** - [Ver guia](./players.md)
+3. **Crie seus times** - [Ver guia](./teams.md)
+4. **Organize seus treinos** - [Ver guia](./trainings.md)

@@ -10,118 +10,57 @@ En la pantalla principal, tienes acceso rápido a las tres funcionalidades princ
 - **Registrar Equipos**
 - **Registrar Entrenamientos**
 
-## Entrenamientos
+---
 
-![Entrenamientos](./images/trainings.png)
+## 📚 Documentación
 
-Gestiona tus entrenamientos con las siguientes opciones:
+Explora las funcionalidades de VolleyTrack a través de las secciones a continuación:
 
-- **Agregar**: Crea un nuevo entrenamiento.
-- **Eliminar**: Elimina entrenamientos existentes.
-- **Buscar**: Encuentra entrenamientos registrados.
-- **Limpiar**: Restablece los criterios de búsqueda para una nueva consulta.
-- **Filtros Avanzados**: Refina tu búsqueda utilizando filtros como:
-  - **Equipos**: Filtra por equipos específicos.
-  - **Usuario**: Identifica quién realizó cambios.
-  - **Jugadores**: Selecciona entrenamientos que incluyan jugadores específicos.
-  - **Fecha de Inicio y Fin**: Define un rango de fechas para los entrenamientos.
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
 
-## Información del Entrenamiento
+### 📊 [Dashboard](./dashboard.md)
 
-![Información del Entrenamiento](./images/trainings-list-presence.png)
+Visualiza métricas consolidadas, análisis de asistencia, desempeño de equipos y jugadores en un solo lugar.
 
-Al visualizar un entrenamiento, tendrás acceso a detalles como:
+</div>
 
-- **Fecha y Hora**: Información sobre el inicio y fin del entrenamiento.
-- **Ubicación**: Lugar donde se realiza el entrenamiento.
-- **Descripción**: Detalles sobre el contenido y objetivos del entrenamiento.
-- **Equipos**: Lista de equipos involucrados.
-- **Jugadores**: Lista de atletas participantes.
-- **Acciones**: Opciones para editar o eliminar el entrenamiento.
-- **Informes**: Accede a informes detallados sobre el entrenamiento. (En desarrollo...)
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
 
-## Equipos
+### 🏐 [Entrenamientos](./trainings.md)
 
-![Equipos](./images/teams.png)
+Gestiona tus entrenamientos, visualiza métricas de asistencia y realiza marcaciones de scouts detalladas.
 
-Gestiona tus equipos a través de las siguientes funcionalidades:
+</div>
 
-- **Agregar**: Crea un nuevo equipo.
-- **Eliminar**: Borra equipos existentes.
-- **Buscar**: Encuentra equipos registrados.
-- **Limpiar**: Restablece los criterios de búsqueda para una nueva consulta.
-- **Filtros Avanzados**: Utiliza filtros adicionales, como:
-  - **Posiciones**: Filtra jugadores por sus posiciones.
-  - **Usuario**: Verifica quién realizó cambios.
-  - **Jugadores**: Encuentra equipos que incluyan jugadores específicos.
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
 
-## Jugadores
+### 👥 [Equipos](./teams.md)
 
-![Jugadores](./images/players.png)
+Gestiona tus equipos, filtra por posiciones y realiza un seguimiento de los cambios realizados.
 
-Organiza y gestiona a los jugadores con las siguientes funcionalidades:
+</div>
 
-- **Agregar**: Registra un nuevo jugador.
-- **Eliminar**: Elimina jugadores existentes.
-- **Buscar**: Encuentra jugadores registrados.
-- **Limpiar**: Restablece los criterios de búsqueda para una nueva consulta.
-- **Filtros Avanzados**: Refina tu búsqueda utilizando filtros como:
-  - **Posiciones**: Filtra jugadores por sus posiciones.
-  - **Equipos**: Selecciona jugadores que pertenezcan a equipos específicos.
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
 
-### Agregar un Nuevo Jugador
+### 🏃 [Jugadores](./players.md)
 
-Al hacer clic en **Agregar**, serás dirigido a un formulario dividido en pasos. Navega entre los pasos usando los botones **Anterior** y **Siguiente** y, al finalizar, haz clic en **Guardar**.
+Registra nuevos jugadores, gestiona información personal y asocia posiciones y equipos.
 
-#### 1. Información Esencial
+</div>
 
-![Agregar Jugador](./images/player-informations-1.png)
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
 
-1.1. **Nombre**: Ingresa el nombre completo del jugador para una identificación precisa.
+### ⚙️ [Configuración](./settings.md)
 
-1.2. **Correo Electrónico**: Proporciona un correo válido que se utilizará para el inicio de sesión y recuperación de cuenta.
+Gestiona tus preferencias de notificación y personaliza cómo deseas recibir alertas del sistema.
 
-#### 2. Información Personal
+</div>
 
-![Agregar Jugador](./images/player-informations-2.png)
+---
 
-2.1. **Fecha de Nacimiento**: Ingresa la fecha en formato **DD/MM/AAAA**.
+## 🚀 Inicio Rápido
 
-2.2. **Celular**: Introduce el número con código de área, por ejemplo: **(11) 91234-5678**.
-
-2.3. **CPF**: Ingresa el número de CPF sin puntos ni guiones, solo los números.
-
-2.4. **RG**: Ingresa el número de RG, pudiendo incluir puntos y dígito verificador.
-
-#### 3. Permisos
-
-![Agregar Jugador](./images/player-permissions.png)
-
-3.1. **Nivel de Acceso**: Define el rol del usuario en la plataforma:
-
-- **Entrenador**: Para usuarios que gestionarán equipos y entrenamientos.
-- **Jugador**: Para atletas que seguirán su rendimiento.
-
-#### 4. Posición
-
-![Agregar Jugador](./images/player-positions.png)
-
-4.1. **Posiciones**: Selecciona la posición del jugador en el equipo:
-
-- **Central**: Responsable de bloqueos y ataques rápidos por el centro de la red.
-- **Armador** (Levantador): Organiza las jugadas y distribuye los pases.
-- **Líbero**: Especialista en recepción y defensa, no participa en el ataque.
-- **Opuesto**: Principal atacante del equipo, normalmente finaliza las jugadas.
-- **Punta** (Receptor/Ataque): Actúa en los extremos, apoyando en ataque y recepción.
-
-4.2. **Relacionar**: Luego de seleccionar una posición, haz clic en **Relacionar** para asociar al jugador. Un jugador puede tener múltiples posiciones.
-
-4.3. **Eliminar**: Para quitar una posición asociada, haz clic en el ícono de **papelera** en la sección de acciones correspondiente.
-
-#### 5. Equipos
-
-![Agregar Jugador](./images/player-teams.png)
-
-5.1. **Equipos**: Selecciona los equipos a los que pertenece el jugador. Haz clic en **Relacionar** para asociarlo.
-
-Estas funcionalidades te permiten gestionar eficientemente tus equipos y entrenamientos dentro de **VolleyTrack**.
+1. **Explora el Dashboard** - [Ver guía](./dashboard.md) para entender las métricas del sistema
+2. **Comienza registrando tus jugadores** - [Ver guía](./players.md)
+3. **Crea tus equipos** - [Ver guía](./teams.md)
+4. **Organiza tus entrenamientos** - [Ver guía](./trainings.md)
