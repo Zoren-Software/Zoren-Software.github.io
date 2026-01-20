@@ -21,7 +21,7 @@ features:
   - icon: 📝
     title: Функция A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /pl/registration/
+    link: /ru/registration/
 
   - icon: 🌐
     title: Функция B
@@ -31,5 +31,5 @@ features:
   - icon: ⚒️
     title: Функция C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /pl/features/
+    link: /ru/features/
 ---

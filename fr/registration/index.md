@@ -116,4 +116,4 @@ Après vous être connecté, vous pouvez :
 2. **Créer des Équipes** - Organisez vos équipes et effectifs
 3. **Gérer les Entraînements** - Planifiez et suivez vos séances d'entraînement
 
-Pour plus d'informations, consultez la [documentation des fonctionnalités](/fr/features).
+Pour plus d'informations, consultez la [documentation des fonctionnalités](../features/index.md).

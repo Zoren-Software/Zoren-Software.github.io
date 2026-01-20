@@ -116,4 +116,4 @@ Após realizar o login, você pode:
 2. **Criar Times** - Organize seus times e equipes
 3. **Gerenciar Treinos** - Planeje e acompanhe seus treinos
 
-Para mais informações, consulte a [documentação de funcionalidades](/br/features).
+Para mais informações, consulte a [documentação de funcionalidades](../features/index.md).

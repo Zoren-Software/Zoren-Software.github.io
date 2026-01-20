@@ -116,4 +116,4 @@ Dopo aver effettuato l'accesso, puoi:
 2. **Creare Squadre** - Organizza le tue squadre e formazioni
 3. **Gestire Allenamenti** - Pianifica e monitora le tue sessioni di allenamento
 
-Per maggiori informazioni, consulta la [documentazione delle funzionalità](/it/features).
+Per maggiori informazioni, consulta la [documentazione delle funzionalità](../features/index.md).
