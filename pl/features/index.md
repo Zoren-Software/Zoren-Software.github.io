@@ -26,19 +26,137 @@ Zarządzaj swoimi treningami za pomocą poniższych opcji:
   - **Zawodnicy**: Wybierz treningi z udziałem określonych zawodników.
   - **Data rozpoczęcia i zakończenia**: Określ zakres dat treningów.
 
-## Szczegóły Treningu
+### Edytuj Trening / Informacje o Treningu
 
-![Szczegóły Treningu](./images/trainings-list-presence.png)
+Po kliknięciu **Edytuj** przy istniejącym treningu, zostaniesz przekierowany do formularza podzielonego na trzy kroki. Nawiguj między krokami używając przycisków **Wstecz** i **Dalej**, a po zakończeniu kliknij **Zapisz**. Możesz również użyć przycisków **Zakończ Trening** lub **Anuluj Trening** w razie potrzeby.
 
-Podczas przeglądania treningu zobaczysz następujące informacje:
+#### Krok 1: Informacje Podstawowe
 
-- **Data i godzina**: Czas rozpoczęcia i zakończenia treningu.
-- **Miejsce**: Lokalizacja treningu.
-- **Opis**: Treść i cele treningu.
-- **Drużyny**: Drużyny biorące udział w treningu.
-- **Zawodnicy**: Lista uczestników.
-- **Akcje**: Opcje edycji lub usunięcia treningu.
-- **Raporty**: Dostęp do szczegółowych raportów (w przygotowaniu...).
+![Edytuj Trening - Informacje Podstawowe](./images/training-info-part-1.png)
+
+1.1. **Nazwa**: Wprowadź lub edytuj nazwę treningu w celu identyfikacji.
+
+1.2. **Data Treningu**: Wybierz datę treningu używając selektora daty w formacie **DD/MM/RRRR**.
+
+1.3. **Godzina Rozpoczęcia**: Ustaw godzinę rozpoczęcia treningu w formacie 12-godzinnym (np. 4:08 PM).
+
+1.4. **Godzina Zakończenia**: Ustaw godzinę zakończenia treningu w formacie 12-godzinnym (np. 5:08 PM).
+
+1.5. **Opis Treningu**: Dodaj szczegółowy opis dotyczący treści i celów treningu.
+
+1.6. **Status Treningu**: Wybierz aktualny status treningu:
+   - **PENDING**: Trening zaplanowany, jeszcze nie odbyty.
+   - **FINISHED**: Trening zakończony.
+   - **CANCELLED**: Trening anulowany.
+
+1.7. **Podstawy**: Zarządzaj podstawowymi elementami związanymi z treningiem:
+   - Wyświetl już powiązane podstawy w tabeli.
+   - Usuń podstawy, klikając ikonę **kosza** w kolumnie "AKCJE".
+
+1.8. **Podstawy Specyficzne**: Zarządzaj specyficznymi podstawami treningu:
+   - Wyświetl już powiązane specyficzne podstawy w tabeli.
+   - Usuń specyficzne podstawy, klikając ikonę **kosza** w kolumnie "AKCJE".
+
+1.9. **Powiąż Drużynę**: Powiąż drużynę z treningiem:
+   - Jeśli drużyna jest już powiązana, zostanie wyświetlona w tabeli.
+   - Usuń powiązanie, klikając ikonę **kosza** w kolumnie "AKCJE".
+
+1.10. **Powiązani Zawodnicy**: Wyświetl zawodników, którzy są częścią powiązanej drużyny:
+   - Każdy zawodnik jest wyświetlany z awatarem, imieniem, telefonem i pozycjami.
+   - Zawodnicy są automatycznie włączani, gdy drużyna jest powiązana.
+
+1.11. **Zawodnicy Niezależni**: Dodaj zawodników, którzy nie są częścią powiązanej drużyny:
+   - Kliknij **"SZUKAJ I WYBIERZ ZAWODNIKÓW NIEZALEŻNYCH"**, aby otworzyć wyszukiwanie.
+   - Wpisz imię zawodnika w polu wyszukiwania.
+   - Kliknij **"+ Dodaj Zawodnika Niezależnego"**, aby włączyć zawodnika do treningu.
+   - Dodani niezależni zawodnicy pojawią się w sekcji "Dodani Zawodnicy Niezależni".
+
+#### Krok 2: Apel Treningu
+
+![Edytuj Trening - Apel Treningu](./images/training-info-part-2.png)
+
+2.1. **Metryki Treningu - Intencja Obecności**: Wyświetl statystyki potwierdzenia zawodników:
+   - **Potwierdzeni**: Ilość i procent zawodników, którzy potwierdzili obecność.
+   - **Oczekujący**: Ilość i procent zawodników, którzy jeszcze nie odpowiedzieli.
+   - **Odrzuceni**: Ilość i procent zawodników, którzy odrzucili zaproszenie.
+   - **Całkowita Liczba Osób w Drużynie**: Całkowita liczba osób powiązanych z treningiem.
+
+2.2. **Metryki Treningu - Rzeczywista Obecność**: Wyświetl statystyki rzeczywistej obecności:
+   - **Obecni**: Ilość i procent zawodników, którzy uczestniczyli.
+   - **Nieobecni**: Ilość i procent zawodników, którzy nie uczestniczyli.
+
+2.3. **Paski Postępu**: Wizualnie śledź metryki poprzez paski postępu:
+   - **Odpowiedzi Intencji Obecności**: Pomarańczowy pasek pokazujący procent otrzymanych odpowiedzi.
+   - **Obecność na Treningu**: Zielony pasek pokazujący procent rzeczywistej obecności.
+
+2.4. **Powiązani Zawodnicy - Zarządzanie Indywidualne**: Dla każdego wymienionego zawodnika możesz:
+   - Wyświetlić informacje: imię, pozycję i telefon kontaktowy.
+   - **Intencja Obecności**: 
+     - Wyświetl aktualny status (Potwierdzony, Oczekujący lub Odrzucony).
+     - Kliknij **"Potwierdź"**, aby oznaczyć intencję jako potwierdzoną.
+     - Kliknij **"Odrzuć"**, aby oznaczyć intencję jako odrzuconą.
+   - **Rzeczywista Obecność**:
+     - Wyświetl aktualny status (Obecny lub Nieobecny).
+     - Kliknij **"Oznacz jako Obecny"**, aby zarejestrować obecność.
+     - Kliknij **"Oznacz jako Nieobecny"**, aby zarejestrować nieobecność.
+
+#### Krok 3: Oznaczenia Scoutów
+
+![Edytuj Trening - Oznaczenia Scoutów](./images/training-info-part-3.png)
+
+3.1. **Wybór Zawodnika**: W lewym panelu bocznym:
+   - Użyj filtra **"FILTRUJ WEDŁUG POZYCJI"**, aby filtrować zawodników według konkretnej pozycji.
+   - Wybierz zawodnika z listy, aby wyświetlić i edytować jego scouci.
+   - Wybrany zawodnik zostanie wizualnie wyróżniony.
+
+3.2. **Filtr Podstaw**: W prawym górnym panelu:
+   - Użyj filtra **"FILTRUJ PODSTAWY"**, aby skupić się na konkretnych podstawach podczas oznaczania.
+
+3.3. **Oznaczanie Scoutów według Podstaw**: Dla każdej podstawy (Serwis, Przyjęcie, Atak, Blok, Obrona, Wystawienie):
+   - **Przyciski Oceny**: Kliknij kolorowe przyciski, aby zarejestrować akcje:
+     - **A+** (Zielony): Akcje pozytywne/doskonałe - zwiększa licznik.
+     - **B+** (Żółty): Akcje regularne/neutralne - zwiększa licznik.
+     - **C+** (Czerwony): Akcje negatywne/błędy - zwiększa licznik.
+   - **Lista Wyników**: Wyświetl konkretne zarejestrowane wyniki:
+     - Każdy wynik jest wyświetlany z kolorowym wskaźnikiem (zielony, pomarańczowy lub czerwony).
+     - Wyniki są automatycznie kategoryzowane zgodnie z typem akcji.
+   - **Całkowity**: Wyświetl całkowitą liczbę zarejestrowanych akcji dla podstawy.
+   - **Konkretna Opinia**: Dodaj konkretne obserwacje techniczne dla podstawy w dostępnym polu tekstowym.
+
+3.4. **Ogólne Obserwacje Techniczne**: Na dole strony:
+   - Dodaj ogólne obserwacje dotyczące wydajności zawodnika w polu tekstowym **"Ogólne Obserwacje Techniczne"**.
+
+![Edytuj Trening - Statystyki Scoutów](./images/training-info-part-3-statistics.png)
+
+3.5. **Widok Statystyk**: Przełączając się na kartę **"Statystyki"**, uzyskasz dostęp do:
+
+3.6. **Podsumowanie Oceny**:
+   - **Całkowita Liczba Ocen**: Całkowita liczba zarejestrowanych akcji dla zawodnika.
+   - **Efektywność (A)**: Procent akcji sklasyfikowanych jako doskonałe.
+   - **Regularne (B)**: Procent akcji sklasyfikowanych jako regularne.
+   - **Błędy (C)**: Procent akcji sklasyfikowanych jako błędy.
+
+3.7. **Wydajność według Podstaw**: Wyświetl wydajność zawodnika w każdej podstawie:
+   - Każda podstawa wyświetla wizualny pasek postępu.
+   - Pasek pokazuje rozkład między akcjami pozytywnymi (zielony) a regularnymi/błędami (pomarańczowy/czerwony).
+   - Wartość numeryczna wskazuje całkowitą liczbę zarejestrowanych akcji.
+
+3.8. **Wykres Radarowy**: Wyświetl wydajność zawodnika graficznie:
+   - Wykres radarowy przedstawia sześć osi, jedną dla każdej podstawy.
+   - Wartości numeryczne są naniesione na każdej osi.
+   - Wypełniony obszar reprezentuje ogólny profil wydajności zawodnika.
+
+3.9. **Sugestie Poprawy**:
+   - **Najlepsze Podstawy**: Wyświetla podstawę z najlepszą wydajnością i jej procent.
+   - **Wymaga Poprawy**: Wyświetla podstawę, która wymaga większej uwagi i jej procent.
+
+3.10. **Akcje Końcowe**: Użyj przycisków w stopce:
+   - **Zapisz Scoutów**: Zapisz wykonane oznaczenia scoutów.
+   - **Zakończ Trening**: Zakończ trening po ukończeniu wszystkich oznaczeń.
+   - **Anuluj Trening**: Anuluj trening i odrzuć zmiany.
+   - **Zapisz**: Zapisz postęp bez kończenia treningu.
+
+
 
 ## Drużyny
 
