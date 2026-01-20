@@ -116,4 +116,4 @@ Después de iniciar sesión, puedes:
 2. **Crear Equipos** - Organiza tus equipos y plantillas
 3. **Gestionar Entrenamientos** - Planifica y realiza un seguimiento de tus entrenamientos
 
-Para más información, consulta la [documentación de funcionalidades](/es/features).
+Para más información, consulta la [documentación de funcionalidades](../features/index.md).

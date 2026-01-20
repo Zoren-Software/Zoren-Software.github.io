@@ -116,4 +116,4 @@ After logging in, you can:
 2. **Create Teams** - Organize your teams and squads
 3. **Manage Trainings** - Plan and track your training sessions
 
-For more information, see the [features documentation](/en/features).
+For more information, see the [features documentation](../features/index.md).

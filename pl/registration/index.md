@@ -116,4 +116,4 @@ Po zalogowaniu możesz:
 2. **Tworzyć Drużyny** - Organizuj swoje drużyny i skład
 3. **Zarządzać Treningami** - Planuj i śledź swoje sesje treningowe
 
-Aby uzyskać więcej informacji, zobacz [dokumentację funkcji](/pl/features).
+Aby uzyskać więcej informacji, zobacz [dokumentację funkcji](../features/index.md).
